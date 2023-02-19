@@ -1,0 +1,620 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-image: url('./images/taun/header-bg-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 95vh;
+}
+
+.wraper {
+    width: 55%;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 35%;
+}
+
+.townIcon {
+    width: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.blockTown {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    color: white;
+    font-size: 15px;
+}
+
+.content {
+    border: 40px solid #ffca44;
+    height: 50vh;
+    margin-top: 70px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.content h1 {
+    font-size: 40px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.content h3 {
+    font-size: 30px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.content p {
+    color: white;
+    font-size: 17px;
+
+}
+
+.gold {
+    color: #ffca44;
+}
+
+.phoneBlock {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.phoneBlock p {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.btnAccept {
+    font-size: 13px;
+    border: none;
+    border-radius: 3px;
+    background-color: #ffca44;
+    padding: 15px 20px 15px 20px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 100px;
+}
+
+.btnAccept:hover {
+    cursor: pointer;
+    font-size: 13px;
+    border: none;
+    border-radius: 3px;
+    background-color: purple;
+    padding: 15px 20px 15px 20px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 100px;
+}
+
+.title {
+    margin-top: 20px;
+}
+
+.blockLine .text1 {
+    margin-left: 60px;
+    margin-bottom: -17px;
+    font-weight: 400;
+    font-size: 27px;
+}
+
+.blockLine .line {
+    border-bottom: 1px solid black;
+    margin-bottom: 25px;
+    width: 5%;
+}
+
+.title .text2 {
+    padding: 25px 0;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+.blockIcon {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    margin: 60px 0;
+}
+
+.blockIcon .img2 {
+    margin-bottom: 10px;
+}
+
+.blockIcon .textIn {
+    font-weight: bolder;
+    font-size: 35px;
+}
+
+.blockIcon .linea {
+    border-bottom: 8px solid yellow;
+    border-radius: 30px;
+    margin: 10px 30px;
+}
+
+.blockIcon .text3 {
+    font-weight: bolder;
+    font-size: 35px;
+}
+
+.blockIcon .text4 {
+    margin-bottom: -10px;
+}
+
+.blockLin .lin {
+    border-bottom: 20px solid black;
+    width: 100%;
+    margin: 5px 5px;
+} 
+
+.header_2 {
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+.blockTitle .text_1 {
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-left: 52px;
+}
+
+.blockTitle .text_1 .fon{
+    font-weight: bolder;
+}
+
+.blockTitle .line2 {
+    border-bottom: 1px solid black;
+    margin-top: -45px;
+    width: 5%;
+}
+
+.kvadro  .square{
+    border: 15px solid #ffca44;
+    margin-left: 90%;
+    margin-top: 50px;
+    padding: 30px 0;
+}
+
+.blockCenter {
+    display: flex;
+}
+
+.blockCenter .blockImg img {
+    width: 550px;
+}
+
+.blockCenter .blockTxt {
+    margin-left: 30px;
+    margin-right: -50px;
+}
+
+.blockCenter .blockTxt h2 {
+    font-weight: 100;
+    font-size: 45px;
+    margin-bottom: 50px;
+}
+
+.blockCenter .blockTxt .textTo {
+   margin-top: 30px;
+   margin-bottom: 75px;
+}
+
+.blockCenter .blockTxt .textThree {
+    font-weight: bold;
+}
+
+.blockCenter .blockTxt button {
+    margin-top: 15px;
+    border: 5px solid #ffca44;
+    font-size: 18px;
+    padding: 8px 17px;
+}
+
+.kvadro_2 .square_2 {
+    border: 10px solid #ffca44;
+    margin-right: 88%;
+    margin-left: 6%;
+    margin-top: 30px;
+    padding: 20px 0;
+}
+.section {
+    display: flex;
+    margin-bottom: 70px;
+}
+
+.section .txtLeft h2 {
+   text-align: center;
+   margin-left: 45%;
+   margin-bottom: 70px;
+   font-size: 40px;
+   font-weight: 100;
+}
+
+.section .txtLeft p, .btn {
+    margin-left: 56%;
+}
+
+.section .txtLeft .txtOne {
+    font-size: 18px;
+    margin-right: 5px;
+}
+
+.section .txtLeft .txtTo {
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+.section .txtLeft .txtThree {
+    margin-top: 50px;
+    font-weight: bolder;
+}
+
+.section .txtLeft button {
+    margin-top: 20px;
+    border: 5px solid #ffca44;
+    font-size: 18px;
+    padding: 8px 17px;
+}
+
+.section .imgRight img{
+    width: 650px;
+    height: 40vh;
+    margin-right: 230px;
+}
+
+.sectionFooter {
+    display: flex;
+    z-index: 1;
+    margin-bottom: 100px;
+}
+
+
+.sectionFooter .blockImgLeft img{
+    width: 35%;
+    margin-left: 530px;
+    margin-bottom: -30px;
+    z-index: 1;
+}
+
+.sectionFooter .txtRight {
+    margin-right: 350px;
+    margin-left: -400px;
+}
+
+.sectionFooter .txtRight h3 {
+    margin-bottom: 30px;
+    font-size: 35px;
+    font-weight: 100;
+}
+
+.sectionFooter .txtRight .text_One {
+    margin-bottom: 40px;
+}
+
+.sectionFooter .txtRight .text_To {
+    margin-bottom: 20px;
+    font-weight: bolder;
+}
+
+.sectionFooter .txtRight button {
+    border: 5px solid #ffca44;
+    font-size: 18px;
+    padding: 8px 17px;
+}
+#kvadro_3  {
+    padding-left: -30%;
+    padding-right: 130%;
+    margin-left: -30px;
+    margin-top: -100px;
+    z-index: 2;
+}
+
+#kvadro_3 .square_3 {
+    border: 15px solid #ffca44;
+    padding: 25px 0;
+    margin-left: -80px;
+    z-index: 3;
+}
+
+.sectionImg img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 180px;
+
+}
+
+.sectionGlobal .blockLine3 {
+    margin-left: 25%;
+    margin-bottom: 120px;
+}
+.sectionGlobal .blockLine3 .textFoo {
+    margin-left: 60px;
+    margin-bottom: -17px;
+    font-weight: bold;
+    font-size: 27px;
+}
+
+.sectionGlobal .blockLine3 .line3 {
+    border-bottom: 1px solid black;
+    margin-bottom: 25px;
+    margin-top: -20px;
+    margin-left: -30px;
+    width: 5%;
+}
+
+.section_4 .blockMenu {
+    display: flex;
+    justify-content: center;
+
+}
+
+.section_4 .blockMenu .blockRight {
+    margin-left: 10%;
+}
+
+.section_4 .blockMenu img {
+    margin-right: 40px;
+}
+
+.section_4 .blockMenu .blockDisp {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.section_4 .blockMenu .pOne {
+    font-weight: 100;
+    font-size: 13px;
+}
+
+.section_4 .blockMenu .pTo {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.section_4 .blockMenu .imag {
+    width: 13%;
+    height: 5vh;
+}
+
+.section_4 .blockMenu  img.img3 {
+    width: 20%;
+    height: 4vh;
+}
+
+.section_4 .blockBtnLine button {
+    font-size: 17px;
+    border: none;
+    border-radius: 2px;
+    background-color: #ffca44;
+    padding: 20px 40px 20px 40px;
+    text-transform: uppercase;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    margin-left: 43%;
+    cursor: pointer;
+}
+
+.blockBtnLine  .line4 {
+    border-bottom: 1px solid rgb(158, 157, 157);
+    margin: 30px 400px 30px 500px;
+}
+
+.section_5 .fon_1{
+    background-image: url("./images/taun/fon_ost-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section_5 .topmenu {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+    padding-top: 250px;
+}
+
+.section_5 .topmenu h2 {
+    margin-bottom: 40px;
+    color: #ffca44;
+    font-size: 28px;
+    text-transform: uppercase;
+}
+
+.section_5 .topmenu .blockLeft_2 {
+    margin-right: 200px;
+}
+
+.section_5 .topmenu .blockLeft_2  .white {
+    color: white;
+    font-weight: bold;
+}
+
+.section_5 .topmenu .blockLeft_2  .white_2 {
+    color: white;
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+.section_5 .topmenu .blockLeft_2  .white_3{
+    color: white;
+    font-size: 20px;
+}
+
+.section_5 .topmenu .blockRight_2 .form_text, .form_phone{
+    margin-bottom: 5px;
+}
+
+.section_5 .topmenu .blockRight_2 input[type="text"] {
+    padding: 10px 145px 10px 15px;
+}
+
+.section_5 .topmenu .blockRight_2 input[type="phone"] {
+    padding: 10px 145px 10px 15px;
+}
+
+.section_5 .topmenu .blockRight_2 .btnAcc button {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 15px;
+    padding: 20px 90px 20px 90px;
+    background-color: #ffca44;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.section_5 .topmenu .blockRight_2 .btnAcc button:hover {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 15px;
+    padding: 20px 90px 20px 90px;
+    background-color: purple;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.section_5 .blockPhone{
+    padding-bottom: 100px;
+}
+
+.section_5 .blockPhone  h3{
+    text-align: center;
+    color: #ffca44;
+    margin-bottom: 15px;
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+.section_5 .blockPhone .blockDisp_2 {
+    display: flex;
+    justify-content: center;
+}
+
+.section_5 .blockPhone .blockDisp_2 .white_4 {
+    color: white;
+    margin-top: 5px;
+    margin-left: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+footer .fon_2 {
+    background-image: url('./images/taun/fon_ost-1.jpg');
+    background-size: cover;
+}
+
+footer .fon_2 .blockhead {
+    padding-top: 230px;
+    padding-bottom: 35px;
+} 
+
+footer .fon_2 .blockhead h1 {
+    padding-bottom: 20px;
+    color: #ffca44;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+footer .fon_2 .blockhead .white_5 {
+    color: white;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+footer .blockCenter_2 .form_type_3, .form_type_4{
+    margin-bottom: 8px;
+    padding: 10px 90px 10px 15px;
+}
+
+
+footer .blockhead, .blockCenter_2, .blockPhone_2 h3 {
+    text-align: center;
+}
+
+footer .btn2 {
+    margin-bottom: 35px;
+}
+
+footer .btn2 button {
+    padding: 15px 68px 15px 68px;
+    text-transform: uppercase;
+    background-color: #ffca44;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 45px;
+    font-weight: bolder;
+}
+
+footer .btn2 button:hover {
+    padding: 15px 68px 15px 68px;
+    text-transform: uppercase;
+    background-color: purple;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 45px;
+    font-weight: bolder;
+}
+
+footer .btn2 .white_6 {
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+footer .blockPhone_2 h3 {
+    color: #ffca44;
+    font-weight: bold;
+    font-size: 33px;
+}
+
+footer .blockDisp_3 {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+footer .blockDisp_3 .white_7 {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 3px;
+    text-decoration: none;
+}
+
+footer .blockBottom {
+    text-align: center;
+    margin-top: 30px;
+    padding-bottom: 100px;
+}
+
+footer .blockBottom img {
+    width: 30px;
+}
+
+footer .blockBottom .facebook {
+    margin-left: 10px;
+}
+
